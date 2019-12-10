@@ -99,6 +99,13 @@ p {
   font-style: normal;
   font-size: 18px;
 }
+h2{
+     font-family: 'Cinzel', serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 1em;
+  color: #fff;
+}
 
 #prices_services {
   background: #000;
@@ -133,7 +140,11 @@ video {
         text-align: center;
     }
 }
-
+.card {
+  box-shadow: unset !important;
+  -webkit-box-shadow: unset !important;
+  border-radius: unset !important;
+}
 .card_border {
   border-left: 2px solid #ffcc00 !important;
   border-right: 2px solid #ffcc00 !important;
