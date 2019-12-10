@@ -20,58 +20,80 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* End of Eric Meyer's CSS Reset */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
 }
 body {
-	font: 12px/18px Arial, sans-serif;
+  font: 12px/18px Arial, sans-serif;
 }
-
 
 
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-	height: 64px;
-	background: #FFE680;
+  height: 64px;
+  background: #ffe680;
 }
-
 
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
 }
 video {
-    width: 100%;
-    height: auto;
-    z-index: -1;
+  width: 100%;
+  height: auto;
+  z-index: -1;
 }
-#logoWhite{
-    display: none;
+#logoWhite {
+  display: none;
 }
 #videoLogo{
     position: absolute;
@@ -95,10 +117,17 @@ video {
     }
 }
 
+@media only screen and (min-device-width: 768px) {
+  #logoWhite {
+    display: block;
+    position: absolute;
+    top: 100px;
+  }
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	height: 100px;
-	background: #BFF08E;
+  height: 100px;
+  background: #bff08e;
 }
