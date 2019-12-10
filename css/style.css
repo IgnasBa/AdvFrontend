@@ -196,7 +196,7 @@ video {
 
 
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 992px) {
   #logoWhite {
     display: block;
     position: absolute;
