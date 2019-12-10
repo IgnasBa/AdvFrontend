@@ -102,8 +102,9 @@ h1 {
   font-family: 'Cinzel', serif;
   font-weight: 400;
   text-align: center;
-  margin: 1em;
   color: #fff;
+	margin-top: 0 !important;
+	padding: 1em;
 }
 p {
   font-family: niveau-grotesk, sans-serif;
@@ -188,6 +189,12 @@ video {
   font-weight: 700;
   font-style: normal;
 }
+
+.row{
+	margin-bottom: unset !important;
+}
+
+
 
 @media only screen and (max-width: 920px) {
   #logoWhite {
