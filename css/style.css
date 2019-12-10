@@ -78,21 +78,34 @@ body {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-  height: 64px;
-  background: #ffe680;
 }
 
+nav{
+    background: #fff !important;
+}
+.brand-logo {
+    margin-left: 2em;
+}
+.btn {
+    background-color: #ffcc00 !important;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
+}
+a{
+    color: #000 !important;
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 300;
 }
 h1 {
 	font-size: 3.2rem !important;
   font-family: 'Cinzel', serif;
   font-weight: 400;
   text-align: center;
-  margin: 1em;
   color: #fff;
+	margin-top: 0 !important;
+	padding: 1em;
 }
 p {
   font-family: niveau-grotesk, sans-serif;
@@ -120,13 +133,21 @@ video {
 #logoWhite {
   display: none;
 }
+
 #videoLogo{
     position: absolute;
     top: 64px;
     height: 50vh;
     width: 100%;
+}
+
+.videoLogo{
 
 }
+.swag{
+    text-align: center;
+}
+
 @media only screen and (min-device-width : 768px){
     .videoLogo{
         width: 50%;
@@ -170,7 +191,13 @@ video {
   font-style: normal;
 }
 
-@media only screen and (max-width: 920px) {
+.row{
+	margin-bottom: unset !important;
+}
+
+
+
+@media only screen and (max-width: 992px) {
   #logoWhite {
     display: block;
     position: absolute;
