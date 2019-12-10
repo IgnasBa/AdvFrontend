@@ -23,7 +23,7 @@ time, mark, audio, video {
 article,
 aside,
 details,
-figcaption,
+figcaption, 
 figure,
 footer,
 header,
@@ -78,13 +78,25 @@ body {
 /* Header
 -----------------------------------------------------------------------------*/
 .header {
-  height: 64px;
-  background: #ffe680;
 }
 
+nav{
+    background: #fff !important;
+}
+.brand-logo {
+    margin-left: 2em;
+}
+.btn {
+    background-color: #ffcc00 !important;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
+}
+a{
+    color: #000 !important;
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 300;
 }
 h1 {
   font-family: 'Cinzel', serif;
@@ -119,13 +131,21 @@ video {
 #logoWhite {
   display: none;
 }
+
 #videoLogo{
     position: absolute;
     top: 64px;
     height: 50vh;
     width: 100%;
-
 }
+
+.videoLogo{
+    
+}
+.swag{
+    text-align: center;
+}
+
 @media only screen and (min-device-width : 768px){
     .videoLogo{
         width: 50%;
