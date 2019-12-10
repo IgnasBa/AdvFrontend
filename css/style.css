@@ -68,16 +68,12 @@ body {
 -----------------------------------------------------------------------------*/
 .content {
 }
-
-#blackOverlay{
-    height: 1080px;
-    width: 1920px;
-    position: absolute;
-    top: 64px;
-    z-index: 1;
-    background: #000;
-    opacity: 0.7;
+video {
+    width: 100%;
+    height: auto;
+    z-index: -1;
 }
+
 
 
 /* Footer
