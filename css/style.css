@@ -100,11 +100,11 @@ p {
   font-size: 18px;
 }
 h2{
-     font-family: 'Cinzel', serif;
+     font-family: niveau-grotesk, serif;
   font-weight: 400;
   text-align: center;
-  margin: 1em;
   color: #fff;
+    font-size: 2em !important;
 }
 
 #prices_services {
@@ -121,9 +121,8 @@ video {
 }
 #videoLogo{
     position: absolute;
-    z-index: 2;
     top: 64px;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
 
 }
@@ -131,8 +130,8 @@ video {
     .videoLogo{
         width: 50%;
         height: auto;
-        margin-top: 8em;
-        margin-bottom: 8em
+        margin-top: 12em;
+        margin-bottom: 2em;
     }
     #videoDiv{
         display: flex;
