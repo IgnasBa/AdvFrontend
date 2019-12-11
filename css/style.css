@@ -165,6 +165,13 @@ video {
   text-align: center;
 }
 
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+0o
+
 @media only screen and (min-device-width : 768px) {
   .videoLogo {
     width: 50%;
@@ -371,12 +378,7 @@ video {
 
   }
 
-#map {
-   width: 100%;
-   height: 400px;
-   background-color: grey;
- }
-/* END Where to find us Page */
+
 
 	#company {
     width: 100%;
