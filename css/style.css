@@ -128,7 +128,7 @@ h2 {
   font-weight: 400;
   text-align: center;
   color: #fff;
-  font-size: 2em !important;
+  font-size: 1em !important;
 }
 
 #prices_services {
@@ -152,7 +152,7 @@ video {
   width: 100%;
 }
 
-.videoLogo {}
+.videoLogo {display: none;}
 
 .swag {
   text-align: center;
