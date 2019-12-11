@@ -89,10 +89,13 @@ nav {
 }
 
 .brand-logo {
-  margin-left: 2em;
+  margin-left: 0em;
 }
 
 .btn {
+  background-color: #ffcc00 !important;
+}
+.btn-large {
   background-color: #ffcc00 !important;
 }
 
@@ -125,7 +128,7 @@ p {
 
 h2 {
   font-family: niveau-grotesk, serif;
-  font-weight: 400;
+  font-weight: 300 !important;
   text-align: center;
   color: #fff;
   font-size: 1em !important;
@@ -150,6 +153,7 @@ video {
   top: 64px;
   height: 50vh;
   width: 100%;
+    margin-left: 0 !important;
 }
 
 .videoLogo {display: none;}
@@ -171,6 +175,11 @@ video {
     justify-content: center;
     text-align: center;
   }
+}
+@media only screen and (min-device-width : 450px) {
+    .swag{
+        margin-top: 10%;
+    }
 }
 
 .card {
@@ -245,7 +254,7 @@ video {
 		border-right: 2px solid #ffcc00;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
   #logoWhite {
     display: block;
     position: absolute;
@@ -259,59 +268,38 @@ video {
     border-right: unset !important;
     display: block;
   }
+    
+.brand-logo {
+  margin-left: 2em;
+}
+    h2{
+        font-size: 2em !important;
+    }
+    .swag{
+        margin-top: 0;
+    }
 }
 
 #company {
 	width: 100%;
 }
-
 .pleaseNoPadding {
 	padding: 0 !important;
 }
-
 .aboutC {
 	background-color: #000;
 	margin: 0;
 	padding:0.7em;
 }
-
 #goodService {
 	font-family: 'Cinzel', serif;
   font-weight: 400;
 	color: #000;
-	text-align: center;
+	text-align: left;
 }
-
 #descr {
 	line-height: 28px;
     margin-top: 2em;
-}
-
-#contactUs {
-	color: #ffcc00 !important;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-#contactUs:hover {
-	text-decoration: underline;
-}
-
-@media only screen and (min-device-width : 991px){
-    .videoLogo{
-        width: 50%;
-        height: auto;
-        margin-top: 12em;
-        margin-bottom: 2em;
-    }
-    #videoDiv{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-		#goodService {
-			text-align: left;
-		}
 }
 /* Footer
 -----------------------------------------------------------------------------*/
