@@ -12,13 +12,14 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -33,17 +34,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -51,12 +56,13 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* End of Eric Meyer's CSS Reset */
 
+/* End of Eric Meyer's CSS Reset */
 article,
 aside,
 details,
@@ -71,54 +77,58 @@ section,
 summary {
   display: block;
 }
-body {
-}
 
+body {}
 
 /* Header
 -----------------------------------------------------------------------------*/
-.header {
+.header {}
+
+nav {
+  background: #fff !important;
 }
 
-nav{
-    background: #fff !important;
-}
 .brand-logo {
-    margin-left: 2em;
+  margin-left: 2em;
 }
+
 .btn {
-    background-color: #ffcc00 !important;
+  background-color: #ffcc00 !important;
 }
+
 /* Middle
 -----------------------------------------------------------------------------*/
-.content {
+.content {}
+
+a {
+  color: #000 !important;
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 300;
 }
-a{
-    color: #000 !important;
-    font-family: niveau-grotesk, sans-serif;
-    font-weight: 300;
-}
+
 h1 {
 	font-size: 3.2rem !important;
   font-family: 'Cinzel', serif;
   font-weight: 400;
   text-align: center;
   color: #fff;
-	margin-top: 0 !important;
-	padding: 1em;
+  margin-top: 0 !important;
+  padding: 1em;
 }
+
 p {
   font-family: niveau-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
 }
-h2{
-     font-family: niveau-grotesk, serif;
+
+h2 {
+  font-family: niveau-grotesk, serif;
   font-weight: 400;
   text-align: center;
   color: #fff;
-    font-size: 2em !important;
+  font-size: 2em !important;
 }
 
 #prices_services {
@@ -130,30 +140,45 @@ video {
   height: auto;
   z-index: -1;
 }
+
 #logoWhite {
   display: none;
 }
 
-#videoLogo{
-    position: absolute;
-    top: 64px;
-    height: 50vh;
-    width: 100%;
+#videoLogo {
+  position: absolute;
+  top: 64px;
+  height: 50vh;
+  width: 100%;
 }
 
-.videoLogo{
+.videoLogo {}
 
+.swag {
+  text-align: center;
 }
-.swag{
+
+@media only screen and (min-device-width : 768px) {
+  .videoLogo {
+    width: 50%;
+    height: auto;
+    margin-top: 12em;
+    margin-bottom: 2em;
+  }
+
+  #videoDiv {
+    display: flex;
+    justify-content: center;
     text-align: center;
+  }
 }
-
 
 .card {
   box-shadow: unset !important;
   -webkit-box-shadow: unset !important;
   border-radius: unset !important;
 }
+
 .card_border {
   border-left: 2px solid #ffcc00 !important;
   border-right: 2px solid #ffcc00 !important;
@@ -179,11 +204,46 @@ video {
   font-style: normal;
 }
 
-.row{
-	margin-bottom: unset !important;
+.picture{
+	max-width: 50%;
+}
+
+.img_services{
+	width: 100%;
+}
+
+.container_text{
+	padding: 10%;
+}
+
+.row {
+  margin-bottom: unset !important;
+}
+
+.container_text_picture {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
 }
 
 
+
+.card.horizontal .card-image img {
+    border-radius: unset !important;
+    max-width: 50% !important;
+    width: auto;
+    padding: 2em;
+    margin-left: 3em;
+
+}
+
+.card.horizontal .card-image {
+		border-right: 2px solid #ffcc00;
+}
 
 @media only screen and (max-width: 992px) {
   #logoWhite {
@@ -191,6 +251,7 @@ video {
     position: absolute;
     top: 100px;
   }
+
   .card_border {
     border-top: 2px solid #ffcc00 !important;
     border-bottom: 2px solid #ffcc00 !important;

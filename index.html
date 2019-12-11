@@ -17,66 +17,66 @@
 
 <body>
 
-    <header class="header">
-       <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"><img src="img/logo-smatin1.svg"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">CONTACT</a></li>
-                    <li><a href="badges.html">PRIVES & SERVICES</a></li>
-                    <li><a href="collapsible.html">GALLERY & REVIEWS</a></li>
-                    <li><a href="mobile.html">ABOUT</a></li>
-                    <li><a class="waves-effect waves-light btn">Booking</a></li>
-                </ul>
-            </div>
-        </nav>
+  <header class="header">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="img/logo-smatin1.svg"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">CONTACT</a></li>
+            <li><a href="badges.html">PRIVES & SERVICES</a></li>
+            <li><a href="collapsible.html">GALLERY & REVIEWS</a></li>
+            <li><a href="mobile.html">ABOUT</a></li>
+            <li><a class="waves-effect waves-light btn">Booking</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+  </header>
+  <!-- .header-->
+
+  <main class="content">
+    <!-- Video Section-->
+    <section id="video">
+
+      <video controls muted autoplay loop>
+        <source src="video/salonMatin2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div id="videoLogo" class="row">
+        <div class="col l8 offset-l4"><img class="videoLogo hide-on-small-only	" src="img/logo-smatin.png"></div>
+        <div class="col l6 offset-l3 swag">
+          <h2>Here at Salon Matin we make sure to give the best services at an affordable price</h2>
+          <a class="waves-effect waves-light btn">Booking</a>
         </div>
 
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-        </ul>
-    </header>
-    <!-- .header-->
+      </div>
+    </section>
 
-    <main class="content">
-        <!-- Video Section-->
-        <section id="video">
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="row">
+        <div class="col s12 l4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">BOOK VIA PHONE</span>
+              <p>
+                <br>
+                +45 86 19 44 09
+                <br>
 
-            <video controls muted autoplay loop>
-                <source src="video/salonMatin2.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-            <div id="videoLogo" class="row">
-                    <div class="col l8 offset-l4"><img class="videoLogo show-on-large" src="img/logo-smatin.png"></div>
-                    <div class="col l6 offset-l3 swag">
-                        <h2>Here at Salon Matin we make sure to give the best services at an affordable price</h2>
-                        <a class="waves-effect waves-light btn">Booking</a>
-                    </div>
-
+              </p>
             </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-          <div class="row">
-            <div class="col s12 l4">
-              <div class="card">
-                <div class="card-content">
-                  <span class="card-title">BOOK VIA PHONE</span>
-                  <p>
-                      <br>
-                    +45 86 19 44 09
-                    <br>
-
-                  </p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
         <div class="col s12 l4">
           <div class="card card_border">
             <div class="card-content">
@@ -111,9 +111,103 @@
     <section id="prices_services">
       <h1>PRICES & SERVICES</h1>
       <div class="row">
+        <!-- Card machine haircut -->
         <div class="col s12 l6">
-
+          <div class="card horizontal">
+            <div class="card-image">
+              <img class="img_services" src="img/razor.png">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title">HAIRCUT ONLY WITH THE MACHINE</span>
+              </div>
+              <div class="card-action">
+                <p>100 kr</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- Card machine and sccissors haircut -->
+        <div class="col s12 l6">
+          <div class="card horizontal">
+            <div class="card-image">
+              <img class="img_services" src="img/razor.png">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title">HAIRCUT WITH THE MACHINE AND SCCISSORS</span>
+              </div>
+              <div class="card-action">
+                <p>120 kr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Card sccissors haircut -->
+<div class="col s12 l6">
+  <div class="card horizontal">
+    <div class="card-image">
+      <img class="img_services" src="img/razor.png">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <span class="card-title">HAIRCUT WITH THE SCCISSORS ONLY</span>
+      </div>
+      <div class="card-action">
+        <p>150 kr</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Card sccissors haircut -->
+<div class="col s12 l6">
+  <div class="card horizontal">
+    <div class="card-image">
+      <img class="img_services" src="img/razor.png">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <span class="card-title">HAIRCUT WOMEN HAIRCUT</span>
+      </div>
+      <div class="card-action">
+        <p>200 kr</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Card sccissors haircut -->
+<div class="col s12 l6">
+  <div class="card horizontal">
+    <div class="card-image">
+      <img class="img_services" src="img/razor.png">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <span class="card-title">BARBERING</span>
+      </div>
+      <div class="card-action">
+        <p>50 kr</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Card sccissors haircut -->
+<div class="col s12 l6">
+  <div class="card horizontal">
+    <div class="card-image">
+      <img class="img_services" src="img/razor.png">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <span class="card-title">CHILDREN HAIRCUT</span>
+      </div>
+      <div class="card-action">
+        <p>100 kr</p>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
 
