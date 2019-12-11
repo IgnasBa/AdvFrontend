@@ -89,10 +89,13 @@ nav {
 }
 
 .brand-logo {
-  margin-left: 2em;
+  margin-left: 0em;
 }
 
 .btn {
+  background-color: #ffcc00 !important;
+}
+.btn-large {
   background-color: #ffcc00 !important;
 }
 
@@ -125,10 +128,10 @@ p {
 
 h2 {
   font-family: niveau-grotesk, serif;
-  font-weight: 400;
+  font-weight: 300 !important;
   text-align: center;
   color: #fff;
-  font-size: 2em !important;
+  font-size: 1em !important;
 }
 
 #prices_services {
@@ -150,9 +153,10 @@ video {
   top: 64px;
   height: 50vh;
   width: 100%;
+    margin-left: 0 !important;
 }
 
-.videoLogo {}
+.videoLogo {display: none;}
 
 .swag {
   text-align: center;
@@ -171,6 +175,11 @@ video {
     justify-content: center;
     text-align: center;
   }
+}
+@media only screen and (min-device-width : 450px) {
+    .swag{
+        margin-top: 10%;
+    }
 }
 
 .card {
@@ -263,13 +272,22 @@ video {
     border-right: unset !important;
     display: block;
   }
-}
 
 @media only screen and (max-width: 600px) {
 
 .card .card-content .card-title {
 	font-size: 20px;
 }
+.brand-logo {
+  margin-left: 2em;
+}
+    h2{
+        font-size: 2em !important;
+    }
+    .swag{
+        margin-top: 0;
+    }
+
 
 }
 
@@ -294,6 +312,43 @@ video {
 #descr {
 	line-height: 28px;
     margin-top: 2em;
+}
+
+#contactUs {
+	color: #ffcc00 !important;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contactUs:hover {
+	text-decoration: underline;
+}
+/* END About Company Page */
+/* Where to find us Page */
+
+#findUs {
+	background-color: #000;
+}
+
+
+/* END Where to find us Page */
+
+
+@media only screen and (min-device-width : 991px){
+    .videoLogo{
+        width: 50%;
+        height: auto;
+        margin-top: 12em;
+        margin-bottom: 2em;
+    }
+    #videoDiv{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+		#goodService {
+			text-align: left;
+		}
 }
 /* Footer
 -----------------------------------------------------------------------------*/
