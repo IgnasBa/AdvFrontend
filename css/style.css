@@ -258,6 +258,10 @@ video {
 	background: #000;
 }
 
+.container_gallery{
+	display: block;
+}
+
 @media only screen and (max-width: 992px) {
   #logoWhite {
     display: block;
@@ -288,6 +292,9 @@ video {
         margin-top: 0;
     }
 
+		.container_gallery{
+			display: none;
+		}
 
 }
 
