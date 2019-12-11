@@ -266,6 +266,27 @@ video {
 	display: none;
 }
 
+#findUs {
+	background-color: #000;
+}
+.SomeIcon{
+    display: none;
+    position: fixed;
+    width: 40px;
+    top: 50%;
+    z-index: 10;
+    right: 10px;
+}
+.SomeIcon2{
+    display: none;
+    position: fixed;
+    width: 40px;
+    top: 56%;
+    z-index: 10;
+    right: 10px;
+}
+
+
 @media only screen and (max-width: 992px) {
   #logoWhite {
     display: block;
@@ -331,6 +352,7 @@ video {
       background: url('../img/gallery4.jpg')
     }
 
+
     .slide5 {
       background: url('../img/gallery5.jpg')
     }
@@ -345,7 +367,8 @@ video {
 
     .slide8 {
       background: url('../img/gallery8.jpg')
-    }
+    }}
+
   }
 
   #company {
@@ -411,6 +434,15 @@ video {
   }
 
   /* Footer
+
+		#goodService {
+			text-align: left;
+		}
+    .SomeIcon, .SomeIcon2{
+        display: block;
+    }
+}
+/* Footer
 -----------------------------------------------------------------------------*/
   .footer {
     height: 100px;
