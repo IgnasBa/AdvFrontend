@@ -264,23 +264,54 @@ video {
 #company {
 	width: 100%;
 }
+
 .pleaseNoPadding {
 	padding: 0 !important;
 }
+
 .aboutC {
 	background-color: #000;
 	margin: 0;
 	padding:0.7em;
 }
+
 #goodService {
 	font-family: 'Cinzel', serif;
   font-weight: 400;
 	color: #000;
-	text-align: left;
+	text-align: center;
 }
+
 #descr {
 	line-height: 28px;
     margin-top: 2em;
+}
+
+#contactUs {
+	color: #ffcc00 !important;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contactUs:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (min-device-width : 991px){
+    .videoLogo{
+        width: 50%;
+        height: auto;
+        margin-top: 12em;
+        margin-bottom: 2em;
+    }
+    #videoDiv{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+		#goodService {
+			text-align: left;
+		}
 }
 /* Footer
 -----------------------------------------------------------------------------*/
