@@ -95,6 +95,7 @@ nav {
 .btn {
   background-color: #ffcc00 !important;
 }
+
 .btn-large {
   background-color: #ffcc00 !important;
 }
@@ -110,7 +111,7 @@ a {
 }
 
 h1 {
-	font-size: 3.2rem !important;
+  font-size: 3.2rem !important;
   font-family: 'Cinzel', serif;
   font-weight: 400;
   text-align: center;
@@ -153,10 +154,12 @@ video {
   top: 64px;
   height: 50vh;
   width: 100%;
-    margin-left: 0 !important;
+  margin-left: 0 !important;
 }
 
-.videoLogo {display: none;}
+.videoLogo {
+  display: none;
+}
 
 .swag {
   text-align: center;
@@ -176,10 +179,11 @@ video {
     text-align: center;
   }
 }
+
 @media only screen and (min-device-width : 450px) {
-    .swag{
-        margin-top: 10%;
-    }
+  .swag {
+    margin-top: 10%;
+  }
 }
 
 .card {
@@ -213,16 +217,16 @@ video {
   font-style: normal;
 }
 
-.picture{
-	max-width: 50%;
+.picture {
+  max-width: 50%;
 }
 
-.img_services{
-	width: 100%;
+.img_services {
+  width: 100%;
 }
 
-.container_text{
-	padding: 10%;
+.container_text {
+  padding: 10%;
 }
 
 .row {
@@ -239,27 +243,27 @@ video {
   align-content: stretch;
 }
 
-
-
 .card.horizontal .card-image img {
-    border-radius: unset !important;
-    max-width: 80% !important;
-    width: auto;
-    padding: 2em;
-
+  border-radius: unset !important;
+  max-width: 80% !important;
+  width: auto;
+  padding: 2em;
 }
 
 .card.horizontal .card-image {
-		border-right: 2px solid #ffcc00;
+  border-right: 2px solid #ffcc00;
 }
 
-
-#gallery_reviews{
-	background: #000;
+#gallery_reviews {
+  background: #000;
 }
 
-.container_gallery{
-	display: block;
+.container_gallery {
+  display: block;
+}
+
+.swiper-container {
+	display: none;
 }
 
 @media only screen and (max-width: 992px) {
@@ -275,91 +279,140 @@ video {
     border-left: unset !important;
     border-right: unset !important;
     display: block;
+  }}
+
+
+
+  @media only screen and (max-width: 600px) {
+    .card .card-content .card-title {
+      font-size: 20px;
+    }
+
+    .brand-logo {
+      margin-left: 2em;
+    }
+
+    h2 {
+      font-size: 2em !important;
+    }
+
+    .swag {
+      margin-top: 0;
+    }
+
+    .container_gallery {
+      display: none !important;
+    }
+
+    .swiper-container {
+      display: block;
+    }
+
+    .swiper-slide {
+      background-size: cover;
+      box-sizing: border-box;
+      padding: 20em 3em;
+      color: white;
+    }
+
+    .slide1 {
+      background: url('../img/gallery1.jpg')
+    }
+
+    .slide2 {
+      background: url('../img/gallery2.jpg')
+    }
+
+    .slide3 {
+      background: url('../img/gallery3.jpg')
+    }
+
+    .slide4 {
+      background: url('../img/gallery4.jpg')
+    }
+
+    .slide5 {
+      background: url('../img/gallery5.jpg')
+    }
+
+    .slide6 {
+      background: url('../img/gallery6.jpg')
+    }
+
+    .slide7 {
+      background: url('../img/gallery7.jpg')
+    }
+
+    .slide8 {
+      background: url('../img/gallery8.jpg')
+    }
   }
 
-@media only screen and (max-width: 600px) {
+  #company {
+    width: 100%;
+  }
 
-.card .card-content .card-title {
-	font-size: 20px;
-}
-.brand-logo {
-  margin-left: 2em;
-}
-    h2{
-        font-size: 2em !important;
-    }
-    .swag{
-        margin-top: 0;
-    }
+  .pleaseNoPadding {
+    padding: 0 !important;
+  }
 
-		.container_gallery{
-			display: none;
-		}
+  .aboutC {
+    background-color: #000;
+    margin: 0;
+    padding: 0.7em;
+  }
 
-}
+  #goodService {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+  }
 
-
-#company {
-	width: 100%;
-}
-.pleaseNoPadding {
-	padding: 0 !important;
-}
-.aboutC {
-	background-color: #000;
-	margin: 0;
-	padding:0.7em;
-}
-#goodService {
-	font-family: 'Cinzel', serif;
-  font-weight: 400;
-	color: #000;
-	text-align: left;
-}
-#descr {
-	line-height: 28px;
+  #descr {
+    line-height: 28px;
     margin-top: 2em;
-}
+  }
 
-#contactUs {
-	color: #ffcc00 !important;
-	font-size: 20px;
-	font-weight: bold;
-}
+  #contactUs {
+    color: #ffcc00 !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-#contactUs:hover {
-	text-decoration: underline;
-}
-/* END About Company Page */
-/* Where to find us Page */
+  #contactUs:hover {
+    text-decoration: underline;
+  }
 
-#findUs {
-	background-color: #000;
-}
+  /* END About Company Page */
+  /* Where to find us Page */
+  #findUs {
+    background-color: #000;
+  }
 
-
-/* END Where to find us Page */
-
-
-@media only screen and (min-device-width : 991px){
-    .videoLogo{
-        width: 50%;
-        height: auto;
-        margin-top: 12em;
-        margin-bottom: 2em;
+  /* END Where to find us Page */
+  @media only screen and (min-device-width : 991px) {
+    .videoLogo {
+      width: 50%;
+      height: auto;
+      margin-top: 12em;
+      margin-bottom: 2em;
     }
-    #videoDiv{
-        display: flex;
-        justify-content: center;
-        text-align: center;
+
+    #videoDiv {
+      display: flex;
+      justify-content: center;
+      text-align: center;
     }
-		#goodService {
-			text-align: left;
-		}
-}
-/* Footer
+
+    #goodService {
+      text-align: left;
+    }
+  }
+
+  /* Footer
 -----------------------------------------------------------------------------*/
-.footer {
-  height: 100px;
-  background: #bff08e;
-}
+  .footer {
+    height: 100px;
+    background: #bff08e;
+  }
