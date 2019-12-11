@@ -1,84 +1,3 @@
-/* Eric Meyer's CSS Reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* End of Eric Meyer's CSS Reset */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-  display: block;
-}
-
-body {}
 
 /* Header
 -----------------------------------------------------------------------------*/
@@ -86,10 +5,6 @@ body {}
 
 nav {
   background: #fff !important;
-}
-
-.brand-logo {
-  margin-left: 0em;
 }
 
 .btn {
@@ -102,7 +17,30 @@ nav {
 
 /* Middle
 -----------------------------------------------------------------------------*/
-.content {}
+/* =================== IGNAS =========================== */
+
+
+
+.videoLogo {
+	width: 50%;
+	height: auto;
+	margin-top: 12em;
+	margin-bottom: 2em;
+}
+
+#videoDiv {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#goodService {
+	text-align: left;
+}
+
+.swag {
+	margin-top: 0;
+}
 
 a {
   color: #000 !important;
@@ -132,7 +70,7 @@ h2 {
   font-weight: 300 !important;
   text-align: center;
   color: #fff;
-  font-size: 1em !important;
+  font-size: 2em !important;
 }
 
 #prices_services {
@@ -170,28 +108,11 @@ video {
    height: 400px;
    background-color: grey;
  }
-0o
 
-@media only screen and (min-device-width : 768px) {
-  .videoLogo {
-    width: 50%;
-    height: auto;
-    margin-top: 12em;
-    margin-bottom: 2em;
-  }
 
-  #videoDiv {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-}
+/* =================== END IGNAS =========================== */
 
-@media only screen and (min-device-width : 450px) {
-  .swag {
-    margin-top: 10%;
-  }
-}
+/* =================== EDDY =========================== */
 
 .card {
   box-shadow: unset !important;
@@ -293,8 +214,59 @@ video {
     right: 10px;
 }
 
+#company {
+	width: 100%;
+}
+
+.pleaseNoPadding {
+	padding: 0 !important;
+}
+
+.aboutC {
+	background-color: #000;
+	margin: 0;
+	padding: 0.7em;
+}
+
+#goodService {
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+#descr {
+	line-height: 28px;
+	margin-top: 2em;
+}
+
+#contactUs {
+	color: #ffcc00 !important;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contactUs:hover {
+	text-decoration: underline;
+}
+
+/* END About Company Page */
+/* Where to find us Page */
+#findUs {
+	background-color: #000;
+}
+
+
+
+/* ______________________ TABLET _______________________ */
 
 @media only screen and (max-width: 992px) {
+
+	.brand-logo {
+	  margin-left: 0em;
+	}
+
   #logoWhite {
     display: block;
     position: absolute;
@@ -309,7 +281,7 @@ video {
     display: block;
   }}
 
-
+/* ______________________ MOBILE _______________________ */
 
   @media only screen and (max-width: 600px) {
     .card .card-content .card-title {
@@ -321,12 +293,12 @@ video {
     }
 
     h2 {
-      font-size: 2em !important;
+      font-size: 1em !important;
     }
 
-    .swag {
-      margin-top: 0;
-    }
+		.swag {
+	    margin-top: 10%;
+	  }
 
     .container_gallery {
       display: none !important;
@@ -376,71 +348,9 @@ video {
       background: url('../img/gallery8.jpg')
     }}
 
-  }
-
-
-
-	#company {
-    width: 100%;
-  }
-
-  .pleaseNoPadding {
-    padding: 0 !important;
-  }
-
-  .aboutC {
-    background-color: #000;
-    margin: 0;
-    padding: 0.7em;
-  }
-
-  #goodService {
-    font-family: 'Cinzel', serif;
-    font-weight: 400;
-    color: #000;
-    text-align: left;
-  }
-
-  #descr {
-    line-height: 28px;
-    margin-top: 2em;
-  }
-
-  #contactUs {
-    color: #ffcc00 !important;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  #contactUs:hover {
-    text-decoration: underline;
-  }
-
-  /* END About Company Page */
-  /* Where to find us Page */
-  #findUs {
-    background-color: #000;
-  }
 
   /* END Where to find us Page */
-  @media only screen and (min-device-width : 991px) {
-    .videoLogo {
-      width: 50%;
-      height: auto;
-      margin-top: 12em;
-      margin-bottom: 2em;
-    }
 
-    #videoDiv {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-
-    #goodService {
-      text-align: left;
-    }
-  }
 
   /* Footer
 
