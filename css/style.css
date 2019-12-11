@@ -317,7 +317,22 @@ video {
 #findUs {
 	background-color: #000;
 }
-
+.SomeIcon{
+    display: none;
+    position: fixed;
+    width: 40px;
+    top: 50%;
+    z-index: 10;
+    right: 10px;
+}
+.SomeIcon2{
+    display: none;
+    position: fixed;
+    width: 40px;
+    top: 56%;
+    z-index: 10;
+    right: 10px;
+}
 
 /* END Where to find us Page */
 
@@ -337,6 +352,9 @@ video {
 		#goodService {
 			text-align: left;
 		}
+    .SomeIcon, .SomeIcon2{
+        display: block;
+    }
 }
 /* Footer
 -----------------------------------------------------------------------------*/
