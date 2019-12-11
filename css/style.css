@@ -243,10 +243,9 @@ video {
 
 .card.horizontal .card-image img {
     border-radius: unset !important;
-    max-width: 50% !important;
+    max-width: 80% !important;
     width: auto;
     padding: 2em;
-    margin-left: 3em;
 
 }
 
@@ -254,7 +253,12 @@ video {
 		border-right: 2px solid #ffcc00;
 }
 
-@media only screen and (min-width: 992px) {
+
+#gallery_reviews{
+	background: #000;
+}
+
+@media only screen and (max-width: 992px) {
   #logoWhite {
     display: block;
     position: absolute;
@@ -269,6 +273,11 @@ video {
     display: block;
   }
 
+@media only screen and (max-width: 600px) {
+
+.card .card-content .card-title {
+	font-size: 20px;
+}
 .brand-logo {
   margin-left: 2em;
 }
@@ -278,8 +287,11 @@ video {
     .swag{
         margin-top: 0;
     }
+
+
 }
-/* About Company page */
+
+
 #company {
 	width: 100%;
 }
