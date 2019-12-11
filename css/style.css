@@ -260,7 +260,7 @@ video {
     display: block;
   }
 }
-
+/* About Company page */
 #company {
 	width: 100%;
 }
@@ -296,6 +296,16 @@ video {
 #contactUs:hover {
 	text-decoration: underline;
 }
+/* END About Company Page */
+/* Where to find us Page */
+
+#findUs {
+	background-color: #000;
+}
+
+
+/* END Where to find us Page */
+
 
 @media only screen and (min-device-width : 991px){
     .videoLogo{
