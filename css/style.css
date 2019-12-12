@@ -205,7 +205,7 @@ video {
 .SomeIcon{
     display: block;
     position: fixed;
-    width: 40px;
+    width: 3%;
     top: 50%;
     z-index: 10;
     right: 10px;
