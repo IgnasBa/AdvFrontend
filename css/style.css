@@ -14,6 +14,9 @@ nav {
   background-color: #ffcc00 !important;
 }
 
+.brand-logo {
+      margin-left: 2em;
+    }
 /* Middle
 -----------------------------------------------------------------------------*/
 /* =================== IGNAS =========================== */
@@ -100,9 +103,15 @@ video {
 }
 
 #map {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+#smallBtn{
+    display: none;
+}
+.btn-large{
+    display: inline-block !important;
 }
 
 /* =================== END IGNAS =========================== */
@@ -138,6 +147,9 @@ video {
   font-style: normal;
 }
 
+.card-content {
+    min-height: 120px;
+}
 .picture {
   max-width: 50%;
 }
@@ -190,23 +202,21 @@ video {
 #findUs {
   background-color: #000;
 }
-
-.SomeIcon {
-  display: none;
-  position: fixed;
-  width: 40px;
-  top: 50%;
-  z-index: 10;
-  right: 10px;
+.SomeIcon{
+    display: block;
+    position: fixed;
+    width: 40px;
+    top: 50%;
+    z-index: 10;
+    right: 10px;
 }
-
-.SomeIcon2 {
-  display: none;
-  position: fixed;
-  width: 40px;
-  top: 56%;
-  z-index: 10;
-  right: 10px;
+.SomeIcon2{
+    display: block;
+    position: fixed;
+    width: 40px;
+    top: 56%;
+    z-index: 10;
+    right: 10px;
 }
 
 #company {
@@ -271,9 +281,21 @@ h5 {
 
 /* ______________________ TABLET _______________________ */
 @media only screen and (max-width: 992px) {
-  .brand-logo {
-    margin-left: 0em;
-  }
+    .SomeIcon{
+    display: none;
+
+}
+    .swag {
+	    margin-top: 17%;
+	  }
+.SomeIcon2{
+    display: none;
+
+}
+
+	.brand-logo {
+	  margin-left: 0em;
+	}
 
   #logoWhite {
     display: block;
@@ -290,23 +312,30 @@ h5 {
   }
 }
 
+
 /* ______________________ MOBILE _______________________ */
-@media only screen and (max-width: 600px) {
-  .card .card-content .card-title {
-    font-size: 20px;
-  }
 
-  .brand-logo {
-    margin-left: 2em;
-  }
 
-  h2 {
-    font-size: 1em !important;
-  }
+  @media only screen and (max-width: 600px) {
+    .card .card-content .card-title {
+      font-size: 20px;
+    }
+.swag {
+	    margin-top: 1%;
+	  }
 
-  .swag {
-    margin-top: 10%;
-  }
+
+    h2 {
+      font-size: 1em !important;
+    }
+      .btn-large{
+          display: none !important;
+      }
+      #smallBtn{
+          display: inline-block;
+      }
+
+
 
   .container_gallery {
     display: none !important;
