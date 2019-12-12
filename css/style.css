@@ -1,4 +1,3 @@
-
 /* Header
 -----------------------------------------------------------------------------*/
 .header {}
@@ -21,24 +20,21 @@ nav {
 /* Middle
 -----------------------------------------------------------------------------*/
 /* =================== IGNAS =========================== */
-
-
-
 .videoLogo {
-	width: 50%;
-	height: auto;
-	margin-top: 12em;
-	margin-bottom: 2em;
+  width: 50%;
+  height: auto;
+  margin-top: 12em;
+  margin-bottom: 2em;
 }
 
 #videoDiv {
-	display: flex;
-	justify-content: center;
-	text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 #goodService {
-	text-align: left;
+  text-align: left;
 }
 
 .textMargin {
@@ -119,9 +115,7 @@ video {
 }
 
 /* =================== END IGNAS =========================== */
-
 /* =================== EDDY =========================== */
-
 .card {
   box-shadow: unset !important;
   -webkit-box-shadow: unset !important;
@@ -202,11 +196,11 @@ video {
 }
 
 .swiper-container {
-	display: none;
+  display: none;
 }
 
 #findUs {
-	background-color: #000;
+  background-color: #000;
 }
 .SomeIcon{
     display: block;
@@ -226,68 +220,70 @@ video {
 }
 
 #company {
-	width: 100%;
+  width: 100%;
 }
 
 .pleaseNoPadding {
-	padding: 0 !important;
+  padding: 0 !important;
 }
 
 .aboutC {
-	background-color: #000;
-	margin: 0;
-	padding: 0.7em;
+  background-color: #000;
+  margin: 0;
+  padding: 0.7em;
 }
 
 #goodService {
-	font-family: 'Cinzel', serif;
-	font-weight: 400;
-	color: #000;
-	text-align: left;
-	font-size: 1.5em;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  color: #000;
+  text-align: left;
+  font-size: 1.5em;
 }
 
 #descr {
-	line-height: 28px;
-	margin-top: 2em;
+  line-height: 28px;
+  margin-top: 2em;
 }
 
 #contactUs {
-	color: #ffcc00 !important;
-	font-size: 20px;
-	font-weight: bold;
+  color: #ffcc00 !important;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #contactUs:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* END About Company Page */
 /* Where to find us Page */
 #findUs {
-	background-color: #000;
+  background-color: #000;
 }
 
-#about_hairdressers{
-	background: #000;
+#about_hairdressers {
+  background: #000;
 }
 
-h5{
-	font-family: niveau-grotesk, sans-serif;
+h5 {
+  font-family: niveau-grotesk, sans-serif;
   font-weight: 700;
   font-style: normal;
-	color: #ffcc00;
-	text-align: center;
-	text-transform: uppercase;
+  color: #ffcc00;
+  text-align: center;
+  text-transform: uppercase;
 }
 
+.hairdresser_desktop {
+  display: block;
+}
 
 /* ______________________ TABLET _______________________ */
-
 @media only screen and (max-width: 992px) {
     .SomeIcon{
     display: none;
-    
+
 }
     .textMargin {
 	    margin-top: 17%;
@@ -313,10 +309,12 @@ h5{
     border-left: unset !important;
     border-right: unset !important;
     display: block;
-  }}
+  }
+}
 
 
 /* ______________________ MOBILE _______________________ */
+
 
   @media only screen and (max-width: 600px) {
     .card .card-content .card-title {
@@ -325,7 +323,7 @@ h5{
 .textMargin {
 	    margin-top: 1%;
 	  }
-    
+
 
     h2 {
       font-size: 1em !important;
@@ -337,61 +335,109 @@ h5{
           display: inline-block;
       }
 
-		
-
-    .container_gallery {
-      display: none !important;
-    }
-
-    .swiper-container {
-      display: block;
-    }
-
-    .swiper-slide {
-      background-size: cover;
-      box-sizing: border-box;
-      padding: 20em 3em;
-      color: white;
-    }
-
-    .slide1 {
-      background: url('../img/gallery1.jpg')
-    }
-
-    .slide2 {
-      background: url('../img/gallery2.jpg')
-    }
-
-    .slide3 {
-      background: url('../img/gallery3.jpg')
-    }
-
-    .slide4 {
-      background: url('../img/gallery4.jpg')
-    }
 
 
-    .slide5 {
-      background: url('../img/gallery5.jpg')
-    }
+  .container_gallery {
+    display: none !important;
+  }
 
-    .slide6 {
-      background: url('../img/gallery6.jpg')
-    }
+  .swiper-container {
+    display: block;
+  }
 
-    .slide7 {
-      background: url('../img/gallery7.jpg')
-    }
+  .swiper-slide {
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 15em 3em;
+    color: white;
+		text-align: center;
+  }
 
-    .slide8 {
-      background: url('../img/gallery8.jpg')
-    }}
+  .slide1 {
+    background: url('../img/gallery1.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
 
+  .slide2 {
+    background: url('../img/gallery2.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
 
-  /* END Where to find us Page */
+  .slide3 {
+    background: url('../img/gallery3.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
 
+  .slide4 {
+    background: url('../img/gallery4.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
 
-  /* Footer
+  .slide5 {
+    background: url('../img/gallery5.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+  .slide6 {
+    background: url('../img/gallery6.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+  .slide7 {
+    background: url('../img/gallery7.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+  .slide8 {
+    background: url('../img/gallery8.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+  .hairdresser_desktop {
+    display: none;
+  }
+
+  .slide9 {
+    background: url('../img/thaer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .slide10 {
+    background: url('../img/montazer.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+  .slide11 {
+    background: url('../img/murad.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+  }
+
+}
+
+/* END Where to find us Page */
+/* Footer
 
 		#goodService {
 			text-align: left;
@@ -402,7 +448,7 @@ h5{
 }
 /* Footer
 -----------------------------------------------------------------------------*/
-  .footer {
-    height: 100px;
-    background: #bff08e;
-  }
+.footer {
+  height: 100px;
+  background: #bff08e;
+}
