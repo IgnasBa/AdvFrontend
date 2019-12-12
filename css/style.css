@@ -222,6 +222,10 @@ video {
 	padding: 0 !important;
 }
 
+.image-smaller {
+	max-width: 50%;
+}
+
 .aboutC {
 	background-color: #000;
 	margin: 0;
