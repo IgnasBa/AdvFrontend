@@ -37,8 +37,8 @@ nav {
   text-align: left;
 }
 
-.swag {
-  margin-top: 0;
+.textMargin {
+	margin-top: 0;
 }
 
 a {
@@ -98,7 +98,7 @@ video {
   display: none;
 }
 
-.swag {
+.textMargin {
   text-align: center;
 }
 
@@ -227,6 +227,10 @@ video {
   padding: 0 !important;
 }
 
+.image-smaller {
+	max-width: 50%;
+}
+
 .aboutC {
   background-color: #000;
   margin: 0;
@@ -285,7 +289,7 @@ h5 {
     display: none;
 
 }
-    .swag {
+    .textMargin {
 	    margin-top: 17%;
 	  }
 .SomeIcon2{
@@ -320,7 +324,7 @@ h5 {
     .card .card-content .card-title {
       font-size: 20px;
     }
-.swag {
+.textMargin {
 	    margin-top: 1%;
 	  }
 
