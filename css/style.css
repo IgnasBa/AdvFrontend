@@ -204,6 +204,58 @@ video {
   display: none;
 }
 
+/* Reviews */
+
+.cardsForm {
+  overflow-y: scroll;
+  width: 480px !important;
+}
+
+.review-person {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  font-size: 40px !important
+}
+
+#reviewForm {
+  text-align: center;
+  margin-top: 7% !important
+}
+
+.fields {
+  width: 465px !important;
+  border: 1px solid white !important;
+  background-color: white !important
+}
+
+.fields2 {
+  width: 465px !important;
+  height: 150px !important;
+  border: 1px solid white !important;
+  background-color: white !important
+}
+
+.post {
+  width: 185px;
+  height: 40px;
+  background-color: #FFCC00;
+  border: none;
+  color: #000 !important;
+  font-family: niveau-grotesk, sans-serif !important;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10% !important;
+}
+
+.placeholder {
+  color: white !important;
+  margin: 0 !important;
+  margin-left: 0.75em !important;
+  margin-top: 4% !important
+}
+
+/* REVIEWS ends */
+
 #findUs {
   background-color: #000;
 }
@@ -341,7 +393,7 @@ h5 {
     border-right: unset !important;
     display: block;
   }
-    
+
 }
 
 
