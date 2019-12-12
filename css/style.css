@@ -206,6 +206,7 @@ video {
 #findUs {
   background-color: #000;
 }
+<<<<<<< HEAD
 
 .SomeIcon {
   display: block;
@@ -214,6 +215,31 @@ video {
   top: 50%;
   z-index: 10;
   right: 10px;
+=======
+.SomeIcon{
+    display: block;
+    position: fixed;
+    width: 3%;
+    top: 50%;
+    z-index: 10;
+    right: 10px;
+}
+.SomeIcon2{
+    display: block;
+    position: fixed;
+    width: 40px;
+    top: 56%;
+    z-index: 10;
+    right: 10px;
+}
+.SomeIconM1{
+    display: none;
+    position: fixed;
+    left: 5px;
+    width: 30px;
+    z-index: 10;
+    top: 12px;
+>>>>>>> parent of 3b29c59... icons
 }
 
 .SomeIcon2 {
