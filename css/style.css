@@ -356,6 +356,54 @@ h5 {
   display: block;
 }
 
+/* Footer */
+footer {
+  margin-top: 2%;
+  background-color: black;
+  color: white;
+  height: 235px
+}
+
+h2 {
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 18pt
+}
+
+.column {
+  float: left;
+  width: 33%;
+  border-right: 1px solid #FFCC00;
+  height: 150px;
+  margin-top: 2%
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.paragraph {
+  margin-bottom: 0;
+  font-size: 18pt;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.heading2 {
+  margin: 0 !important
+}
+
+.copy {
+  font-size: 10pt
+}
+
+.work-hours {
+  font-size: 12pt
+}
+
 /* ______________________ TABLET _______________________ */
 @media only screen and (max-width: 992px) {
     .SomeIcon{

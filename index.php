@@ -410,7 +410,27 @@
   </main>
   <!-- .content -->
 
-  <footer class="footer"></footer>
+  <footer>
+    <div class="row">
+      <div class="column">
+        <h2 class="heading2">BOOK VIA PHONE</h2>
+        <p class="paragraph">+45 86 19 44 09</p>
+      </div>
+      <div class="column">
+        <h2 class="heading2">ADDRESS</h2>
+        <p class="paragraph">Frederiks allé 176
+        <br>
+        8000 Århus C</p>
+      </div>
+      <div class="column" style="border-right:none">
+        <h2 class="heading2">OPENING HOURS</h2>
+        <p class="work-hours paragraph">Monday - Friday 9:30 - 18 <br>
+        Saturday 9:00 - 14 <br>
+        Sunday closed <br></p>
+      </div>
+    </div>
+    <p class="copy paragraph">Copyright - Salon Matin 2019</p>
+  </footer>
   <!-- .footer -->
 
   <!-- .wrapper -->
