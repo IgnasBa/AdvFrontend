@@ -264,7 +264,7 @@
           echo "<h1 class='review-person'>";
           echo "Write your review";
           echo "</h1>";
-          echo "<form method='POST' action='".setComments($conn)." class='cardsForm' id='reviewForm'>
+          echo "<form method='post' action='".setComments($conn)."' class='cardsForm' id='reviewForm'>
             <p class='placeholder'>Your name</p>
             <input name='uid' value='' class='fields'/>
             <br>
@@ -305,7 +305,26 @@
 
 
       </div>
-
+      <?php
+      /* Created a form for writing a comment */
+      echo "<div class='mob-review'>";
+      echo "<div class='cards cardsForm'>";
+      getComments($conn);
+      echo "</div>";
+      echo "<h1 class='review-person'>";
+      echo "Write your review";
+      echo "</h1>";
+      echo "<form method='POST' action='".setComments($conn)." class='cardsForm' id='reviewForm'>
+        <p class='placeholder'>Your name</p>
+        <input name='uid' value='' class='fields'/>
+        <br>
+        <p class='placeholder'>Your review</p>
+        <textarea name='message' rows='8' cols='80' class='fields2'></textarea>
+        <br>
+        <button name='commentSubmit' type='submit' class='post'>Post review</button>
+      </form>";
+      echo "</div>";
+      ?>
     </section>
 
     <!-- About Section -->
