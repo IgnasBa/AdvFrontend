@@ -268,7 +268,18 @@ video {
 	background-color: #000;
 }
 
+#about_hairdressers{
+	background: #000;
+}
 
+h5{
+	font-family: niveau-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+	color: #ffcc00;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 
 /* ______________________ TABLET _______________________ */
