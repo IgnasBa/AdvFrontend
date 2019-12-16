@@ -11,9 +11,9 @@
   <!--[if lt IE 9
       ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script
     ><![endif]-->
-  <title></title>
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
+  <title>Salon Matin</title>
+  <meta name="keywords" content="haircut, hair salon, salon matin, cheap haircut aarhus, cheap haircut, trendy haircut, most popular hair salon in aarhus among internationals"/>
+  <meta name="description" content="Salon Matin is a hair salon in aarhus center, providing haircuts and beard trims/shaves for a cheap price" />
   <link rel="stylesheet" href="https://use.typekit.net/ttr3wco.css" />
   <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
@@ -31,9 +31,9 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-         <a href="https://www.facebook.com/salonmatin?fref=ts"><img src="img/facebook.svg" class="SomeIconM1"> </a><a href="https://www.instagram.com/salon_matin/"><img src="img/instagram.svg" class="SomeIconM2"></a>
-         <a href="#video" class="brand-logo"><img src="img/logo-smatin1.svg"></a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><img src="img/navigation.svg"></a>
+         <a href="https://www.facebook.com/salonmatin?fref=ts"><img src="img/facebook.svg" class="SomeIconM1" alt="Facebook icon"> </a><a href="https://www.instagram.com/salon_matin/"><img src="img/instagram.svg" class="SomeIconM2" alt="Instagram icon"></a>
+         <a href="#video" class="brand-logo"><img src="img/logo-smatin1.svg" alt="Salon Matin logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><img src="img/navigation.svg" alt="Navigation logo"></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#contact">CONTACT</a></li>
             <li><a href="#prices_services">PRICES & SERVICES</a></li>
@@ -65,12 +65,12 @@
         Your browser does not support the video tag.
       </video>
       <div id="videoLogo" class="row">
-        <div class="col l8 offset-l4"><img class="videoLogo show-on-large" src="img/logo-smatin.png"></div>
+        <div class="col l8 offset-l4"><img class="videoLogo show-on-large" src="img/logo-smatin.png" alt="Salon Matin logo"></div>
         <div class="col l6 s12 offset-l3 textMargin">
           <h2>Here at Salon Matin we make sure to give the best services at an affordable price</h2>
           <a class="waves-effect waves-light btn-large" href="http://karoinaz.eu/advanced/">Booking</a>
           <a class="waves-effect waves-light btn" id="smallBtn" href="http://karoinaz.eu/advanced/">Booking</a>
-          <a href="https://www.facebook.com/salonmatin?fref=ts"><img src="img/facebook.svg" class="SomeIcon"> </a><a href="https://www.instagram.com/salon_matin/"><img src="img/instagram.svg" class="SomeIcon2"></a>
+          <a href="https://www.facebook.com/salonmatin?fref=ts"><img src="img/facebook.svg" class="SomeIcon" alt="Facebook icon"> </a><a href="https://www.instagram.com/salon_matin/"><img src="img/instagram.svg" class="SomeIcon2" alt="Instagram icon"></a>
         </div>
       </div>
     </section>
@@ -129,7 +129,7 @@
         <div class="col s12 l6">
           <div class="card horizontal">
             <div class="card-image">
-              <img class="img_services" src="img/razor.png">
+              <img class="img_services" src="img/razor.png" alt="Machine">
             </div>
             <div class="card-stacked">
               <div class="card-content">
@@ -145,7 +145,7 @@
         <div class="col s12 l6">
           <div class="card horizontal">
             <div class="card-image">
-              <img class="img_services" src="img/hair.png">
+              <img class="img_services" src="img/hair.png" alt="Men hair">
             </div>
             <div class="card-stacked">
               <div class="card-content">
@@ -161,7 +161,7 @@
         <div class="col s12 l6">
           <div class="card horizontal">
             <div class="card-image">
-              <img class="img_services" src="img/scrissors.png">
+              <img class="img_services" src="img/scrissors.png" alt="Scissors">
             </div>
             <div class="card-stacked">
               <div class="card-content">
@@ -177,7 +177,7 @@
         <div class="col s12 l6">
           <div class="card horizontal">
             <div class="card-image">
-              <img class="img_services" src="img/woman.png">
+              <img class="img_services" src="img/woman.png" alt="Woman hair">
             </div>
             <div class="card-stacked">
               <div class="card-content">
@@ -193,7 +193,7 @@
         <div class="col s12 l6">
           <div class="card horizontal">
             <div class="card-image">
-              <img class="img_services" src="img/yellow_razor.png">
+              <img class="img_services" src="img/yellow_razor.png" alt="Razor">
             </div>
             <div class="card-stacked">
               <div class="card-content">
@@ -209,7 +209,7 @@
         <div class="col s12 l6">
           <div class="card horizontal">
             <div class="card-image">
-              <img class="img_services" src="img/kid.png">
+              <img class="img_services" src="img/kid.png" alt="Kids hair">
             </div>
             <div class="card-stacked">
               <div class="card-content">
@@ -231,25 +231,25 @@
 
       <div class="row container_gallery">
         <div class="col s12 m6 l4">
-          <img src="img/gallery1.jpg" class="responsive-img card materialbox" alt="">
+          <img src="img/gallery1.jpg" class="responsive-img card materialbox" alt="Making a fade">
         </div>
         <div class="col s12 m6 l4">
-          <img src="img/gallery2.jpg" class="responsive-img card materialbox" alt="">
+          <img src="img/gallery2.jpg" class="responsive-img card materialbox" alt="Barbers tools">
         </div>
         <div class="col s12 m6 l4">
-          <img src="img/gallery3.jpg" class="responsive-img card materialbox" alt="">
+          <img src="img/gallery3.jpg" class="responsive-img card materialbox" alt="Beard shave">
         </div>
         <div class="col s12 m6 l4">
-          <img src="img/gallery4.jpg" class="responsive-img card materialbox" alt="">
+          <img src="img/gallery4.jpg" class="responsive-img card materialbox" alt="Shave">
         </div>
         <div class="col s12 m6 l4">
-          <img src="img/gallery5.jpg" class="responsive-img card materialbox" alt="">
+          <img src="img/gallery5.jpg" class="responsive-img card materialbox" alt="Haircut example">
         </div>
         <div class="col s12 m6 l4">
-          <img src="img/gallery6.jpg" class="responsive-img card materialbox" alt="">
+          <img src="img/gallery6.jpg" class="responsive-img card materialbox" alt="Haircut example">
         </div>
         <div class="col s12 m6 l4">
-          <img src="img/gallery7.jpg" class="responsive-img card materialbox" alt="">
+          <img src="img/gallery7.jpg" class="responsive-img card materialbox" alt="Haircut example">
         </div>
         <div class="col s12 m6 l4">
           <?php
@@ -332,7 +332,7 @@
       <article id="about_company">
         <h1 class="aboutC">ABOUT COMPANY</h1>
         <div class="row">
-        <div class="col l7 s12 pleaseNoPadding image-smaller"><img src="img/company.png" alt="" id="company"></div>
+        <div class="col l7 s12 pleaseNoPadding image-smaller"><img src="img/company.png" alt="Owners" id="company"></div>
         <div class="col l5 s12"><h3 id="goodService">GOOD SERVICE WITH REASONABLE PRICE!</h3>
         <p id="descr">Salon MATIN in Århus C is centrally located on Frederiks Allé 176. That is, you can easily
           and quickly take public transport right to your door. We have bicycle parking and if you are
@@ -353,7 +353,7 @@
           <div class="col m4 l4">
             <div class="card">
               <div class="card-image">
-                <img src="img/thaer.jpg">
+                <img src="img/thaer.jpg" alt="Thaer">
               </div>
               <div class="card-content">
                 <span class="card-title">Thaer Alwan</span>
@@ -365,7 +365,7 @@
           <div class="col m4 l4">
             <div class="card">
               <div class="card-image">
-                <img src="img/montazer.jpg">
+                <img src="img/montazer.jpg" alt="Montazer">
               </div>
               <div class="card-content">
                 <span class="card-title">Montazer Alwan</span>
@@ -377,7 +377,7 @@
           <div class="col m4 l4">
             <div class="card">
               <div class="card-image">
-                <img src="img/murad.jpg">
+                <img src="img/murad.jpg" alt="Murad">
               </div>
               <div class="card-content">
                 <span class="card-title">Murad AlGezir</span>
