@@ -32,14 +32,14 @@
       <nav>
         <div class="nav-wrapper">
          <a href="https://www.facebook.com/salonmatin?fref=ts"><img src="img/facebook.svg" class="SomeIconM1"> </a><a href="https://www.instagram.com/salon_matin/"><img src="img/instagram.svg" class="SomeIconM2"></a>
-         <a href="#!" class="brand-logo"><img src="img/logo-smatin1.svg"></a>
+         <a href="#video" class="brand-logo"><img src="img/logo-smatin1.svg"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><img src="img/navigation.svg"></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">CONTACT</a></li>
-            <li><a href="badges.html">PRICES & SERVICES</a></li>
-            <li><a href="collapsible.html">GALLERY & REVIEWS</a></li>
-            <li><a href="mobile.html">ABOUT</a></li>
-            <li><a class="waves-effect waves-light btn">Booking</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#prices_services">PRICES & SERVICES</a></li>
+            <li><a href="#gallery_reviews">GALLERY & REVIEWS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a class="waves-effect waves-light btn" href="http://karoinaz.eu/advanced/">Booking</a></li>
           </ul>
         </div>
 
@@ -47,11 +47,11 @@
     </div>
 
     <ul class="sidenav" id="mobile-demo">
-
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+      <li><a href="#prices_services">PRICES & SERVICES</a></li>
+      <li><a href="#gallery_reviews">GALLERY & REVIEWS</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a class="waves-effect waves-light btn" href="http://karoinaz.eu/advanced/">Booking</a></li>
     </ul>
   </header>
   <!-- .header-->
@@ -68,8 +68,8 @@
         <div class="col l8 offset-l4"><img class="videoLogo show-on-large" src="img/logo-smatin.png"></div>
         <div class="col l6 s12 offset-l3 textMargin">
           <h2>Here at Salon Matin we make sure to give the best services at an affordable price</h2>
-          <a class="waves-effect waves-light btn-large">Booking</a>
-          <a class="waves-effect waves-light btn" id="smallBtn">Booking</a>
+          <a class="waves-effect waves-light btn-large" href="http://karoinaz.eu/advanced/">Booking</a>
+          <a class="waves-effect waves-light btn" id="smallBtn" href="http://karoinaz.eu/advanced/">Booking</a>
           <a href="https://www.facebook.com/salonmatin?fref=ts"><img src="img/facebook.svg" class="SomeIcon"> </a><a href="https://www.instagram.com/salon_matin/"><img src="img/instagram.svg" class="SomeIcon2"></a>
         </div>
       </div>
