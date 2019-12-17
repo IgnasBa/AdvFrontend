@@ -2,7 +2,7 @@
 
 
 function initMap() {
-  // The location of Aarhus
+  // The location of salon matin
   var aarhus = {lat: 56.146301, lng: 10.193522};
   // The map, centered at Aarhus
   var map = new google.maps.Map(
